@@ -24,13 +24,13 @@ class WhateverTest(TestCase):
         
     def test_valid_form(self):
         w=Whatever.objects.create(name='foo',body='bar')
-        data={'title':w.name,'body':w.body,}
+        data={'name':w.name,'body':w.body,}
         form=WhateverForm(data=data)
         self.assertTrue(form.is_valid())
 
     def test_invalid_form(self):
         w=Whatever.objects.create(name='foo',body='')
-        data={'title':w.name,'body':w.body,}
+        data={'name':w.name,'body':w.body,}
         form=WhateverForm(data=data)
         self.assertFalse(form.is_valid())
 

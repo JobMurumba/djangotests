@@ -1,0 +1,31 @@
+..\..\PycharmProjects\untitled\venv\lib\site-packages\django\contrib\messages\__init__.py:1:1 'from django.contrib.messages.api import *' used; unable to detect undefined names
+..\..\PycharmProjects\untitled\venv\lib\site-packages\django\contrib\messages\__init__.py:1:1 'django.contrib.messages.api.*' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\django\contrib\messages\__init__.py:2:1 'from django.contrib.messages.constants import *' used; unable to detect undefined names
+..\..\PycharmProjects\untitled\venv\lib\site-packages\django\contrib\messages\__init__.py:2:1 'django.contrib.messages.constants.*' imported but unused
+whatever\admin.py:1:1 'django.contrib.admin' imported but unused
+whatever\views.py:4:1 'django.utils.timezone' imported but unused
+whatever\views.py:6:1 'django.http.HttpResponse' imported but unused
+whatever\tests\test_views.py:4:1 redefinition of unused 'timezone' from line 2
+whatever\tests\test_views.py:6:1 'whatever.views' imported but unused
+whatever\tests\test_views.py:7:1 'unittest' imported but unused
+whatever\tests\test_views.py:8:1 'selenium.webdriver' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\backward.py:19:5 'io.StringIO' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\backward.py:28:5 'configparser' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\backward.py:51:5 'itertools.izip_longest as zip_longest' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\backward.py:57:5 'threading.get_ident as get_thread_id' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\backward.py:75:5 'pipes.quote as shlex_quote' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\backward.py:80:5 'repr as reprlib' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\numbits.py:31:16 undefined name 'buffer'
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\numbits.py:33:50 undefined name 'buffer'
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\__init__.py:13:1 'coverage.version.__version__' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\__init__.py:13:1 'coverage.version.__url__' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\__init__.py:13:1 'coverage.version.version_info' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\__init__.py:15:1 'coverage.control.process_startup' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\__init__.py:16:1 'coverage.data.CoverageData' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\__init__.py:17:1 'coverage.misc.CoverageException' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\__init__.py:18:1 'coverage.plugin.CoveragePlugin' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\__init__.py:18:1 'coverage.plugin.FileTracer' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\__init__.py:18:1 'coverage.plugin.FileReporter' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\__init__.py:19:1 'coverage.pytracer.PyTracer' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\__init__.py:27:1 'encodings.utf_8' imported but unused
+..\..\PycharmProjects\untitled\venv\lib\site-packages\coverage\fullcoverage\encodings.py:60:1 'encodings' imported but unused
